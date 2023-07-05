@@ -29,6 +29,7 @@ const Footer = ({ }: Props) => {
                         Contact Us                </h4>
                     <p className='my-5'>consectetur elit</p>
                     <p className='my-5'>(+12) 01223 34 4-443 </p>
+                    <p className='my-5'>(+12) 01223 34 4-443 </p>
 
                 </div>
             </div>

@@ -88,9 +88,9 @@ const Home = ({ setSelectedPage }: Props) => {
                         <div>
                             <div className="mx-auto w-5/6 ">
                                 <div className="flex w-3/5 items-center justify-center gap-8">
-                                    <img src={SponserRedBull} alt="" srcset="" />
-                                    <img src={SponsorForbes} alt="" srcset="" />
-                                    <img src={SponsorFortune} alt="" srcset="" />
+                                    <img src={SponserRedBull} alt=""  />
+                                    <img src={SponsorForbes} alt="" />
+                                    <img src={SponsorFortune} alt=""  />
                                 </div>
                             </div>
                         </div>

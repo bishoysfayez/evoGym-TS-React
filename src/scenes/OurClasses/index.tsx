@@ -1,4 +1,4 @@
-import { SelectedPage, Classes } from "../../shared/types"
+import { SelectedPage } from "../../shared/types"
 import image1 from '../../assets/image1.png'
 import image2 from '../../assets/image2.png'
 import image3 from '../../assets/image3.png'
@@ -55,13 +55,13 @@ const OurClasses = ({ setSelectedPage }: Props) => {
     return (
         <>
 
-            <section id="ourClasses" className="w-full bg-primary-100 py-40">
+            <section id="ourclasses" className="w-full bg-primary-100 py-40">
 
                 <motion.div
                     onViewportEnter={() => {
                         setSelectedPage(SelectedPage.ourClasses)
                     }}
-                    className="w-5/6 mx-auto">
+                    className=" mx-auto">
 
                     <motion.div
 
