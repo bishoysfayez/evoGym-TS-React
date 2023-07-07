@@ -1,7 +1,4 @@
-import {
-  UserGroupIcon,
-  AcademicCapIcon
-} from "@heroIcons/react/solid"
+
 import BenefitsPageGraphic from "../../assets/BenefitsPageGraphic.png"
 import { SelectedPage } from "../../shared/types.tsx"
 import { motion } from "framer-motion"
