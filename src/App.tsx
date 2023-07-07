@@ -6,6 +6,8 @@ import Benefits from './scenes/Benefits/index.tsx'
 import OurClasses from './scenes/OurClasses/index.tsx';
 import ContactUs from './scenes/ContactUs/index.tsx';
 import Footer from './scenes/Footer/index.tsx';
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import '@fortawesome/fontawesome-free/js/all.min.js'
 
 // enums
 

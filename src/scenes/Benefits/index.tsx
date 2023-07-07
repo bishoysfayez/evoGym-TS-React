@@ -15,21 +15,21 @@ type Props = { setSelectedPage: (value: SelectedPage) => void }
 // benefits card contents
 const benefits: Array<BenefitType> = [{
 
-  icon: <UserGroupIcon className="h-6 w-6" />,
+  icon: <i className="fa-solid fa-medal h-6 w-6"></i>,
   title: "State of the Art Facilities",
   description: "perspiciatis deserunt cum porro deleniti tempore iste, cupiditate quas repellat ea necessitatibus modi t"
 
 },
 {
 
-  icon: <UserGroupIcon className="h-6 w-6" />,
+  icon: <i className="fa-solid fa-user-group h-6 w-6"></i>,
   title: "100's of Diverse Classes",
   description: "perspiciatis deserunt cum porro deleniti tempore iste, cupiditate quas repellat ea necessitatibus modi t"
 
 },
 {
 
-  icon: <AcademicCapIcon className="h-6 w-6" />,
+  icon: <i className="fa-solid fa-building-columns h-6 w-6"></i>,
   title: "Expert & Pro Trainers",
   description: "perspiciatis deserunt cum porro deleniti tempore iste, cupiditate quas repellat ea necessitatibus modi t"
 

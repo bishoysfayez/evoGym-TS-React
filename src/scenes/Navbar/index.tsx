@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { MenuIcon, XIcon } from '@heroicons/react/outline/';
 import logo from '../../assets/Logo.png'
 import Link from "./Link";
 import { SelectedPage } from '../../shared/types.tsx';
@@ -61,7 +60,7 @@ function Navbar({ isTopOfPage, selectedPage, setSelectedPage }: Props) {
                     <button
                       onClick={() => { setIsMenuToggled(!isMenuToggled) }}
                     >
-                      <MenuIcon className="h-10 w-10 text-white bg-secondary-500 p-2 rounded-full text-2xl" />
+                      <i className="h-10 w-10 text-white bg-secondary-500 p-2 rounded-full text-2xl fa-solid fa-bars"></i>
                     </button>
 
                   </>
@@ -89,9 +88,9 @@ function Navbar({ isTopOfPage, selectedPage, setSelectedPage }: Props) {
                 <div className="flex justify-end p-12 ">
                   <button onClick={() => { setIsMenuToggled(!isMenuToggled) }}>
 
-                    <XIcon className="h-6 w-6 text-gray-400">
+                    <i className="fa-solid fa-close h-6 w-6 text-gray-400">
 
-                    </XIcon>
+                    </i>
 
                   </button>
 
